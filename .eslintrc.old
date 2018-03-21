@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    "babel"
+  ],
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+          "jsx": true
+      }
+  },
+  "rules": {
+      "arrow-parens": 0,
+      "babel/arrow-parens": 2,
+      "semi": [2, "never"],
+      "array-bracket-spacing": ["error", "never"],
+      "comma-dangle": ["error", {
+        "arrays": "never",
+        "objects": "always",
+        "imports": "never",
+        "exports": "never",
+        "functions": "ignore"
+    }]
+  }
+}
